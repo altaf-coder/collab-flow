@@ -1,8 +1,11 @@
+import AuthScreen from '@/components/ui/auth/auth-screen'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>Collab-Flow</div>
+    <div className='h-full'>
+      <AuthScreen/>
+    </div>
   )
 }
 
