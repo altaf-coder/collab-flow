@@ -187,7 +187,7 @@ const SignUpCard:React.FC<SignUpCardProps> = ({setState}) => {
   };
 
   return (
-       <Card className="w-full h-full p-8 relative">
+       <Card className="bg-white/90 dark:bg-[#020617]/80 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-none shadow-2xl w-full h-full p-8 relative">
             {step > 1 && (
                 <button
                     onClick={prevStep}
@@ -198,7 +198,7 @@ const SignUpCard:React.FC<SignUpCardProps> = ({setState}) => {
                 </button>
             )}
   <CardHeader className='pt-0 px-0'>
-    <CardTitle>
+    <CardTitle className="text-2xl font-bold">
     Sign Up to continue
     </CardTitle>
 <CardDescription>
